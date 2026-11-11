@@ -1,0 +1,42 @@
+{
+  "id": "cand-001",
+  "vaga": {
+    "titulo": "Estágio em Desenvolvimento Front-end",
+    "area": "Desenvolvimento Web",
+    "modalidade": "Híbrido",
+    "cidade": "Santa Rita do Sapucaí - MG",
+    "bolsa": "R$ 1.800,00",
+    "cargaHoraria": "30h semanais",
+    "empresa": {
+      "nome": "Linear Equipamentos",
+      "contato": "email@generico.com"
+    },
+    "prazoInscricao": "2026-10-10"
+  },
+  "dataInscricao": "2026-09-28",
+  "statusAtual": "EM_ANALISE",
+  "ultimaAtualizacao": "2026-10-27T15:40:00",
+  "historico": [
+    {
+      "status": "COMECARA_EM_BREVE",
+      "data": "2026-09-28T10:12:00",
+      "descricao": "Inscrição recebida pelo site acadêmico."
+    },
+    {
+      "status": "EM_ANALISE",
+      "data": "2026-10-14T09:00:00",
+      "descricao": "Currículo em avaliação pela empresa."
+    },
+    {
+      "status": "EM_ANALISE",
+      "data": "2026-10-27T15:40:00",
+      "descricao": "Você foi convocada para entrevista técnica."
+    }
+  ],
+  "proximosPassos": "Confirme a entrevista abaixo. Leve um projeto pessoal para mostrar (GitHub ou portfólio).",
+  "entrevista": {
+    "dataHora": "2026-11-04T14:00:00",
+    "local": "Linear — Av. Sinhá Moreira, 350",
+    "confirmada": false
+  }
+}

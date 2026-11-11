@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Candidaturas · App Inatel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Barra superior -->
+    <header class="topbar">
+      <button class="icon-btn" id="btn-voltar" aria-label="Voltar" hidden>
+        <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>
+      </button>
+      <div class="topbar-title">
+        <span class="topbar-kicker">App Inatel</span>
+        <h1 id="titulo-tela">Minhas Candidaturas</h1>
+      </div>
+      <button class="icon-btn" id="btn-notificacoes" aria-label="Notificações">
+        <svg viewBox="0 0 24 24"><path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3H4a4 4 0 0 0 2-3v-3a7 7 0 0 1 4-6"/><path d="M9 17v1a3 3 0 0 0 6 0v-1"/></svg>
+        <span class="badge" id="badge-notificacoes" hidden>0</span>
+      </button>
+    </header>
+
+    <main id="conteudo">
+      <!-- Tela 1: lista de candidaturas -->
+      <section id="tela-lista" class="tela">
+        <div class="sync-bar">
+          <span id="texto-sync">Carregando...</span>
+          <button class="link-btn" id="btn-sincronizar">
+            <svg viewBox="0 0 24 24"><path d="M20 11A8 8 0 0 0 5 7l-1 1"/><path d="M4 4v4h4"/><path d="M4 13a8 8 0 0 0 15 4l1-1"/><path d="M20 20v-4h-4"/></svg>
+            Atualizar
+          </button>
+        </div>
+
+        <label class="busca">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5"/></svg>
+          <input type="search" id="campo-busca" placeholder="Buscar por vaga ou empresa" autocomplete="off">
+        </label>
+
+        <nav class="filtros" id="filtros" aria-label="Filtrar por status"></nav>
+
+        <p class="resumo" id="resumo-lista"></p>
+        <ul class="lista" id="lista-candidaturas"></ul>
+
+        <div class="vazio" id="estado-vazio" hidden>
+          <p class="vazio-titulo">Nenhuma candidatura encontrada</p>
+          <p id="vazio-texto">Tente outro filtro ou termo de busca.</p>
+        </div>
+
+        <details class="ajuda">
+          <summary>Não encontrou uma vaga em que se inscreveu?</summary>
+          <p>As inscrições feitas no site acadêmico podem levar alguns minutos para aparecer aqui. Toque em <strong>Atualizar</strong> para buscar de novo.</p>
+          <p>Se ainda assim ela não aparecer, confira se a inscrição foi concluída no site acadêmico.</p>
+          <a class="botao botao-secundario" href="https://www.inatel.br" target="_blank" rel="noopener">Abrir o site acadêmico</a>
+        </details>
+      </section>
+
+      <!-- Tela 2: detalhes de uma candidatura -->
+      <section id="tela-detalhe" class="tela" hidden></section>
+    </main>
+
+    <!-- Painel de notificações -->
+    <div class="overlay" id="overlay" hidden></div>
+    <aside class="painel" id="painel-notificacoes" aria-label="Notificações" hidden>
+      <div class="painel-topo">
+        <h2>Notificações</h2>
+        <button class="icon-btn" id="btn-fechar-painel" aria-label="Fechar">
+          <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="painel-acoes">
+        <button class="link-btn" id="btn-marcar-lidas">Marcar todas como lidas</button>
+      </div>
+      <ul class="lista-notificacoes" id="lista-notificacoes"></ul>
+      <details class="preferencias">
+        <summary>Quais mudanças devem me avisar?</summary>
+        <div id="preferencias-status"></div>
+      </details>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

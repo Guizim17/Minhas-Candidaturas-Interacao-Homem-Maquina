@@ -1,0 +1,33 @@
+{
+  "id": "cand-008",
+  "vaga": {
+    "titulo": "Estágio em UX/UI Design",
+    "area": "Design de Interfaces",
+    "modalidade": "Híbrido",
+    "cidade": "Santa Rita do Sapucaí - MG",
+    "bolsa": "R$ 1.600,00",
+    "cargaHoraria": "30h semanais",
+    "empresa": {
+      "nome": "Ampère Tecnologia",
+      "contato": "email@generico.com"
+    },
+    "prazoInscricao": "2026-10-20"
+  },
+  "dataInscricao": "2026-10-09",
+  "statusAtual": "EM_ANALISE",
+  "ultimaAtualizacao": "2026-10-21T17:00:00",
+  "historico": [
+    {
+      "status": "COMECARA_EM_BREVE",
+      "data": "2026-10-09T15:00:00",
+      "descricao": "Inscrição recebida pelo site acadêmico."
+    },
+    {
+      "status": "EM_ANALISE",
+      "data": "2026-10-21T17:00:00",
+      "descricao": "Portfólio em avaliação pela equipe de design."
+    }
+  ],
+  "proximosPassos": "Aguarde o retorno da empresa. O prazo médio de análise é de 2 semanas.",
+  "entrevista": null
+}

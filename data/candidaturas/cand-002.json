@@ -1,0 +1,43 @@
+{
+  "id": "cand-002",
+  "vaga": {
+    "titulo": "Estágio em Testes de Software (QA)",
+    "area": "Qualidade de Software",
+    "modalidade": "Presencial",
+    "cidade": "Santa Rita do Sapucaí - MG",
+    "bolsa": "R$ 1.600,00",
+    "cargaHoraria": "30h semanais",
+    "empresa": {
+      "nome": "Leucotron",
+      "contato": "email@generico.com"
+    },
+    "prazoInscricao": "2026-09-30"
+  },
+  "dataInscricao": "2026-09-15",
+  "statusAtual": "ACEITO",
+  "ultimaAtualizacao": "2026-10-25T11:20:00",
+  "historico": [
+    {
+      "status": "COMECARA_EM_BREVE",
+      "data": "2026-09-15T18:30:00",
+      "descricao": "Inscrição recebida pelo site acadêmico."
+    },
+    {
+      "status": "EM_ANALISE",
+      "data": "2026-09-22T08:45:00",
+      "descricao": "Currículo aprovado na triagem."
+    },
+    {
+      "status": "EM_ANALISE",
+      "data": "2026-10-08T14:00:00",
+      "descricao": "Entrevista realizada com o gestor da área."
+    },
+    {
+      "status": "ACEITO",
+      "data": "2026-10-25T11:20:00",
+      "descricao": "Parabéns! Você foi aprovada para a vaga."
+    }
+  ],
+  "proximosPassos": "Envie RG, CPF, comprovante de matrícula e histórico escolar ao CDE do Inatel até 05/11 para emitir o termo de compromisso de estágio.",
+  "entrevista": null
+}

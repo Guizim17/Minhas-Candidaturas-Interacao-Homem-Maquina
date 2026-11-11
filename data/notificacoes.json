@@ -1,0 +1,42 @@
+[
+  {
+    "id": "n1",
+    "candidaturaId": "cand-001",
+    "status": "EM_ANALISE",
+    "mensagem": "Você foi convocada para entrevista na Linear Equipamentos.",
+    "dataEnvio": "2026-10-27T15:40:00",
+    "lida": false
+  },
+  {
+    "id": "n2",
+    "candidaturaId": "cand-002",
+    "status": "ACEITO",
+    "mensagem": "Você foi aprovada no Estágio em Testes de Software da Leucotron!",
+    "dataEnvio": "2026-10-25T11:20:00",
+    "lida": false
+  },
+  {
+    "id": "n3",
+    "candidaturaId": "cand-005",
+    "status": "EM_ANALISE",
+    "mensagem": "Teste técnico disponível: Inatel Competence Center.",
+    "dataEnvio": "2026-10-20T13:10:00",
+    "lida": true
+  },
+  {
+    "id": "n4",
+    "candidaturaId": "cand-004",
+    "status": "REJEITADO",
+    "mensagem": "Atualização na vaga de Desenvolvimento Mobile do CPQD.",
+    "dataEnvio": "2026-10-18T10:00:00",
+    "lida": true
+  },
+  {
+    "id": "n5",
+    "candidaturaId": "cand-006",
+    "status": "ENCERRADA",
+    "mensagem": "A vaga de Suporte de TI foi encerrada pela empresa.",
+    "dataEnvio": "2026-10-02T08:00:00",
+    "lida": true
+  }
+]

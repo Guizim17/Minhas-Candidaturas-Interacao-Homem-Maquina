@@ -1,0 +1,28 @@
+{
+  "id": "cand-007",
+  "vaga": {
+    "titulo": "Estágio em Desenvolvimento Back-end",
+    "area": "Desenvolvimento Web",
+    "modalidade": "Remoto",
+    "cidade": "Belo Horizonte - MG",
+    "bolsa": "R$ 2.100,00",
+    "cargaHoraria": "30h semanais",
+    "empresa": {
+      "nome": "Hotmart",
+      "contato": "email@generico.com"
+    },
+    "prazoInscricao": "2026-11-12"
+  },
+  "dataInscricao": "2026-10-26",
+  "statusAtual": "COMECARA_EM_BREVE",
+  "ultimaAtualizacao": "2026-10-26T10:15:00",
+  "historico": [
+    {
+      "status": "COMECARA_EM_BREVE",
+      "data": "2026-10-26T10:15:00",
+      "descricao": "Inscrição recebida. O processo começa em 13/11."
+    }
+  ],
+  "proximosPassos": "Aguarde o início do processo seletivo.",
+  "entrevista": null
+}

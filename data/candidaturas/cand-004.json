@@ -1,0 +1,38 @@
+{
+  "id": "cand-004",
+  "vaga": {
+    "titulo": "Estágio em Desenvolvimento Mobile",
+    "area": "Desenvolvimento Mobile",
+    "modalidade": "Híbrido",
+    "cidade": "Campinas - SP",
+    "bolsa": "R$ 2.000,00",
+    "cargaHoraria": "30h semanais",
+    "empresa": {
+      "nome": "CPQD",
+      "contato": "email@generico.com"
+    },
+    "prazoInscricao": "2026-10-01"
+  },
+  "dataInscricao": "2026-09-20",
+  "statusAtual": "REJEITADO",
+  "ultimaAtualizacao": "2026-10-18T10:00:00",
+  "historico": [
+    {
+      "status": "COMECARA_EM_BREVE",
+      "data": "2026-09-20T16:20:00",
+      "descricao": "Inscrição recebida pelo site acadêmico."
+    },
+    {
+      "status": "EM_ANALISE",
+      "data": "2026-10-03T09:30:00",
+      "descricao": "Currículo em avaliação."
+    },
+    {
+      "status": "REJEITADO",
+      "data": "2026-10-18T10:00:00",
+      "descricao": "A empresa seguiu com outros candidatos nesta vaga."
+    }
+  ],
+  "proximosPassos": "Não desanime! O CDE do Inatel oferece revisão de currículo e simulação de entrevista. Agende pelo site acadêmico.",
+  "entrevista": null
+}

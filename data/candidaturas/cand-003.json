@@ -1,0 +1,28 @@
+{
+  "id": "cand-003",
+  "vaga": {
+    "titulo": "Estágio em Ciência de Dados",
+    "area": "Dados e IA",
+    "modalidade": "Remoto",
+    "cidade": "São Paulo - SP",
+    "bolsa": "R$ 2.200,00",
+    "cargaHoraria": "30h semanais",
+    "empresa": {
+      "nome": "Nubank",
+      "contato": "email@generico.com"
+    },
+    "prazoInscricao": "2026-11-20"
+  },
+  "dataInscricao": "2026-10-22",
+  "statusAtual": "COMECARA_EM_BREVE",
+  "ultimaAtualizacao": "2026-10-22T21:05:00",
+  "historico": [
+    {
+      "status": "COMECARA_EM_BREVE",
+      "data": "2026-10-22T21:05:00",
+      "descricao": "Inscrição recebida. O processo seletivo começa após o fim das inscrições (20/11)."
+    }
+  ],
+  "proximosPassos": "Aguarde o início do processo seletivo. Você será avisada quando a empresa começar a análise.",
+  "entrevista": null
+}

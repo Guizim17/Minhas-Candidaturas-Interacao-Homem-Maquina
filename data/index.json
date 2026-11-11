@@ -1,0 +1,19 @@
+{
+  "aluno": {
+    "matricula": "760",
+    "nome": "Ana Clara",
+    "curso": "Engenharia de Software",
+    "periodo": 6
+  },
+  "ultimaSincronizacao": "2026-10-29T08:00:00",
+  "candidaturas": [
+    "cand-001.json",
+    "cand-002.json",
+    "cand-003.json",
+    "cand-004.json",
+    "cand-005.json",
+    "cand-006.json",
+    "cand-007.json",
+    "cand-008.json"
+  ]
+}

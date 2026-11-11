@@ -1,0 +1,33 @@
+{
+  "id": "cand-005",
+  "vaga": {
+    "titulo": "Estágio em Sistemas Embarcados",
+    "area": "Hardware e Embarcados",
+    "modalidade": "Presencial",
+    "cidade": "Santa Rita do Sapucaí - MG",
+    "bolsa": "R$ 1.700,00",
+    "cargaHoraria": "30h semanais",
+    "empresa": {
+      "nome": "Inatel Competence Center",
+      "contato": "email@generico.com"
+    },
+    "prazoInscricao": "2026-10-15"
+  },
+  "dataInscricao": "2026-10-05",
+  "statusAtual": "EM_ANALISE",
+  "ultimaAtualizacao": "2026-10-20T13:10:00",
+  "historico": [
+    {
+      "status": "COMECARA_EM_BREVE",
+      "data": "2026-10-05T11:00:00",
+      "descricao": "Inscrição recebida pelo site acadêmico."
+    },
+    {
+      "status": "EM_ANALISE",
+      "data": "2026-10-20T13:10:00",
+      "descricao": "Teste técnico online enviado para o seu e-mail institucional."
+    }
+  ],
+  "proximosPassos": "Responda o teste técnico enviado ao seu e-mail institucional até 31/10.",
+  "entrevista": null
+}
