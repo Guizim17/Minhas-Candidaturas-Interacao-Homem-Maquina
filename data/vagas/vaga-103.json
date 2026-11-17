@@ -1,0 +1,42 @@
+{
+  "id": "vaga-103",
+  "titulo": "Estágio em Software Embarcado",
+  "area": "Hardware e Embarcados",
+  "modalidade": "Presencial",
+  "cidade": "Santa Rita do Sapucaí - MG",
+  "bolsa": "R$ 1.700,00",
+  "cargaHoraria": "30h semanais",
+  "periodoMinimo": 3,
+  "cursos": [
+    "Engenharia de Software",
+    "Engenharia de Computação",
+    "Engenharia Elétrica"
+  ],
+  "publicadaEm": "2026-11-03",
+  "prazoInscricao": "2026-11-19",
+  "empresa": {
+    "nome": "Sense Eletrônica",
+    "contato": "rh@sense.com.br",
+    "sobre": "Fabricante de sensores e equipamentos para automação industrial, localizada no Vale da Eletrônica."
+  },
+  "descricao": "Desenvolvimento e manutenção de firmware para sensores industriais, com testes em bancada junto ao time de hardware.",
+  "atividades": [
+    "Programar microcontroladores em C",
+    "Testar firmware em bancada",
+    "Apoiar a depuração de placas com o time de hardware"
+  ],
+  "requisitos": [
+    "Estar cursando a partir do 3º período",
+    "Conhecimento em linguagem C",
+    "Disponibilidade no período da tarde"
+  ],
+  "diferenciais": [
+    "Experiência com Arduino ou ESP32",
+    "Noções de eletrônica digital"
+  ],
+  "beneficios": [
+    "Vale-alimentação",
+    "Horário flexível em semana de provas",
+    "Possibilidade de efetivação"
+  ]
+}

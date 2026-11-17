@@ -1,0 +1,44 @@
+{
+  "id": "vaga-105",
+  "titulo": "Estágio em DevOps e Cloud",
+  "area": "Infraestrutura",
+  "modalidade": "Híbrido",
+  "cidade": "Uberlândia - MG",
+  "bolsa": "R$ 1.900,00",
+  "cargaHoraria": "30h semanais",
+  "periodoMinimo": 4,
+  "cursos": [
+    "Engenharia de Software",
+    "Engenharia de Computação",
+    "Engenharia de Telecomunicações"
+  ],
+  "publicadaEm": "2026-11-05",
+  "prazoInscricao": "2026-11-21",
+  "empresa": {
+    "nome": "Algar Telecom",
+    "contato": "estagio@algartelecom.com.br",
+    "sobre": "Operadora de telecomunicações e serviços de TI com sede em Uberlândia."
+  },
+  "descricao": "Participação na automação da infraestrutura em nuvem e na manutenção das esteiras de entrega contínua (CI/CD).",
+  "atividades": [
+    "Configurar pipelines de CI/CD",
+    "Criar e manter containers com Docker",
+    "Monitorar serviços em nuvem",
+    "Documentar a infraestrutura"
+  ],
+  "requisitos": [
+    "Estar cursando a partir do 4º período",
+    "Conhecimento de Linux",
+    "Noções de Git"
+  ],
+  "diferenciais": [
+    "Experiência com Docker",
+    "Certificação de nuvem (AWS, Azure ou GCP)"
+  ],
+  "beneficios": [
+    "Vale-refeição",
+    "Plano de saúde",
+    "Auxílio-transporte",
+    "Trilha de capacitação em nuvem"
+  ]
+}

@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="app">
+    <div class="cabecalho">
     <!-- Barra superior -->
     <header class="topbar">
       <button class="icon-btn" id="btn-voltar" aria-label="Voltar" hidden>
@@ -22,6 +23,13 @@
         <span class="badge" id="badge-notificacoes" hidden>0</span>
       </button>
     </header>
+
+    <!-- Abas -->
+    <nav class="abas" id="abas" aria-label="Seções">
+      <a href="#/" data-aba="candidaturas">Minhas candidaturas</a>
+      <a href="#/vagas" data-aba="vagas">Vagas disponíveis <span class="contagem-aba" id="contagem-vagas"></span></a>
+    </nav>
+    </div>
 
     <main id="conteudo">
       <!-- Tela 1: lista de candidaturas -->
@@ -59,6 +67,29 @@
 
       <!-- Tela 2: detalhes de uma candidatura -->
       <section id="tela-detalhe" class="tela" hidden></section>
+
+      <!-- Tela 3: vagas disponíveis -->
+      <section id="tela-vagas" class="tela" hidden>
+        <p class="intro-vagas" id="intro-vagas"></p>
+
+        <label class="busca">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5"/></svg>
+          <input type="search" id="campo-busca-vagas" placeholder="Buscar por vaga, empresa ou cidade" autocomplete="off">
+        </label>
+
+        <nav class="filtros" id="filtros-area" aria-label="Filtrar por área"></nav>
+
+        <p class="resumo" id="resumo-vagas"></p>
+        <ul class="lista" id="lista-vagas"></ul>
+
+        <div class="vazio" id="vagas-vazio" hidden>
+          <p class="vazio-titulo">Nenhuma vaga encontrada</p>
+          <p>Tente outra área ou termo de busca.</p>
+        </div>
+      </section>
+
+      <!-- Tela 4: detalhes de uma vaga -->
+      <section id="tela-vaga" class="tela" hidden></section>
     </main>
 
     <!-- Painel de notificações -->

@@ -1,0 +1,43 @@
+{
+  "id": "vaga-101",
+  "titulo": "Estágio em Desenvolvimento Full Stack",
+  "area": "Desenvolvimento Web",
+  "modalidade": "Híbrido",
+  "cidade": "Campinas - SP",
+  "bolsa": "R$ 2.000,00",
+  "cargaHoraria": "30h semanais",
+  "periodoMinimo": 4,
+  "cursos": [
+    "Engenharia de Software",
+    "Engenharia de Computação"
+  ],
+  "publicadaEm": "2026-11-10",
+  "prazoInscricao": "2026-11-28",
+  "empresa": {
+    "nome": "Venturus",
+    "contato": "estagio@venturus.org.br",
+    "sobre": "Instituto de inovação tecnológica que desenvolve produtos digitais para empresas de diversos setores."
+  },
+  "descricao": "Você vai atuar em um time ágil no desenvolvimento de aplicações web, do front-end ao back-end, acompanhando o produto do planejamento à entrega.",
+  "atividades": [
+    "Desenvolver telas em React e APIs em Node.js",
+    "Escrever testes automatizados",
+    "Participar das cerimônias do Scrum",
+    "Revisar código dos colegas (code review)"
+  ],
+  "requisitos": [
+    "Estar cursando a partir do 4º período",
+    "Conhecimento em HTML, CSS e JavaScript",
+    "Noções de Git"
+  ],
+  "diferenciais": [
+    "Experiência com React ou outro framework front-end",
+    "Projetos pessoais no GitHub"
+  ],
+  "beneficios": [
+    "Vale-refeição",
+    "Plano de saúde",
+    "Auxílio-transporte",
+    "Mentoria com desenvolvedor sênior"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "vaga-102",
+  "titulo": "Estágio em Redes e Telecomunicações",
+  "area": "Redes e Telecom",
+  "modalidade": "Presencial",
+  "cidade": "Indaiatuba - SP",
+  "bolsa": "R$ 2.300,00",
+  "cargaHoraria": "30h semanais",
+  "periodoMinimo": 5,
+  "cursos": [
+    "Engenharia de Telecomunicações",
+    "Engenharia de Computação",
+    "Engenharia de Software"
+  ],
+  "publicadaEm": "2026-11-08",
+  "prazoInscricao": "2026-12-05",
+  "empresa": {
+    "nome": "Ericsson",
+    "contato": "talentos.brasil@ericsson.com",
+    "sobre": "Empresa global de tecnologia em redes de telecomunicações, com centro de pesquisa e produção no Brasil."
+  },
+  "descricao": "Apoio ao time de integração de redes 5G, participando de testes em laboratório e da análise de desempenho de rede.",
+  "atividades": [
+    "Executar testes de integração em laboratório",
+    "Analisar indicadores de desempenho da rede",
+    "Automatizar rotinas com scripts em Python",
+    "Documentar procedimentos técnicos"
+  ],
+  "requisitos": [
+    "Estar cursando a partir do 5º período",
+    "Conhecimentos de redes de computadores (TCP/IP)",
+    "Inglês intermediário para leitura"
+  ],
+  "diferenciais": [
+    "Conhecimento de Linux",
+    "Noções de 4G/5G"
+  ],
+  "beneficios": [
+    "Restaurante no local",
+    "Fretado",
+    "Plano de saúde e odontológico",
+    "Seguro de vida"
+  ]
+}

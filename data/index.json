@@ -15,5 +15,12 @@
     "cand-006.json",
     "cand-007.json",
     "cand-008.json"
+  ],
+  "vagasDisponiveis": [
+    "vaga-101.json",
+    "vaga-102.json",
+    "vaga-103.json",
+    "vaga-104.json",
+    "vaga-105.json"
   ]
 }

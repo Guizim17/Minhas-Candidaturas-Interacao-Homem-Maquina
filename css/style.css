@@ -47,8 +47,8 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 }
 
 /* ----- Barra superior ----- */
+.cabecalho { position: sticky; top: 0; z-index: 5; }
 .topbar {
-  position: sticky; top: 0; z-index: 5;
   display: flex; align-items: center; gap: 8px;
   padding: 18px 16px 16px;
   background: var(--azul);
@@ -235,6 +235,63 @@ main { padding: 14px 16px 32px; }
   background: #1b2333; color: #fff; font-size: 14px; text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, .25);
 }
+
+/* ----- Abas ----- */
+.abas { display: flex; background: var(--azul); padding: 0 8px; }
+.abas a {
+  flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px;
+  padding: 10px 4px 12px; border-bottom: 3px solid transparent;
+  color: rgba(255, 255, 255, .72); font-size: 14px; font-weight: 600; text-decoration: none;
+}
+.abas a:hover { color: #fff; }
+.abas a.ativa { color: #fff; border-bottom-color: #fff; }
+.contagem-aba { min-width: 20px; padding: 0 6px; border-radius: 10px; background: rgba(255, 255, 255, .2); font-size: 11px; line-height: 18px; text-align: center; }
+.contagem-aba:empty { display: none; }
+
+/* ----- Vagas disponíveis ----- */
+.intro-vagas { font-size: 13px; color: var(--texto-suave); margin-bottom: 12px; }
+.vaga-meta { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; font-size: 12px; color: var(--texto-suave); }
+.vaga-meta span { display: inline-flex; align-items: center; gap: 4px; }
+.vaga-meta svg { width: 14px; height: 14px; }
+.vaga-meta strong { color: var(--texto); font-weight: 600; }
+.tag { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; white-space: nowrap; }
+.tag svg { width: 13px; height: 13px; stroke-width: 2.4; }
+.tag-prazo { background: var(--analise-bg); color: var(--analise-tx); }
+.tag-enviada { background: var(--aceito-bg); color: var(--aceito-tx); }
+.tag-encerrada { background: var(--encerrada-bg); color: var(--encerrada-tx); }
+
+.texto-bloco { font-size: 14px; }
+.lista-itens { list-style: none; display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.lista-itens li { position: relative; padding-left: 16px; }
+.lista-itens li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 6px; height: 6px; border-radius: 50%; background: var(--azul); }
+.subtitulo { font-size: 13px; font-weight: 600; margin: 14px 0 6px; }
+
+/* Envio de currículo */
+.bloco-envio { border: 2px solid var(--azul); }
+.bloco-envio .ajuda-envio { font-size: 13px; color: var(--texto-suave); margin-bottom: 12px; }
+.input-oculto { position: absolute; width: 1px; height: 1px; opacity: 0; overflow: hidden; }
+.area-upload {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: 18px 12px; border: 2px dashed var(--borda); border-radius: 12px;
+  background: var(--fundo); color: var(--texto-suave); font-size: 13px; text-align: center; cursor: pointer;
+}
+.area-upload strong { color: var(--azul); font-size: 14px; }
+.area-upload svg { width: 28px; height: 28px; color: var(--azul); }
+.area-upload:hover, .input-oculto:focus-visible + .area-upload { border-color: var(--azul); background: var(--azul-claro); }
+.area-upload.erro { border-color: #d64545; background: var(--rejeitado-bg); }
+.arquivo { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border: 1px solid var(--borda); border-radius: 12px; background: var(--fundo); }
+.arquivo-icone { display: grid; place-items: center; width: 38px; height: 44px; border-radius: 6px; background: var(--rejeitado-bg); color: var(--rejeitado-tx); font-size: 10px; font-weight: 800; flex-shrink: 0; }
+.arquivo-info { flex: 1; min-width: 0; }
+.arquivo-nome { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.arquivo-tamanho { font-size: 12px; color: var(--texto-suave); }
+.arquivo-acoes { display: flex; gap: 12px; margin-top: 2px; }
+.arquivo-acoes .link-btn { font-size: 13px; padding: 0; }
+.msg-erro { color: #b42318; font-size: 13px; font-weight: 500; margin-top: 8px; }
+.botao-largo { width: 100%; margin-top: 12px; }
+.envio-ok { display: flex; gap: 10px; align-items: flex-start; padding: 12px; border-radius: 12px; background: var(--aceito-bg); color: var(--aceito-tx); font-size: 14px; }
+.envio-ok svg { width: 22px; height: 22px; flex-shrink: 0; }
+.envio-ok p + p { margin-top: 2px; font-size: 13px; }
+.envio-ok a { color: inherit; font-weight: 700; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
