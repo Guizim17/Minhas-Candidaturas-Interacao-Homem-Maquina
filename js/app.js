@@ -298,7 +298,6 @@ function confirmarEntrevista(c) {
   mostrarAviso("Presença confirmada. A empresa foi avisada.");
 }
 
-/*
 function baixarConvite(c) {
   // Gera um arquivo .ics que o celular abre na agenda
   const inicio = new Date(c.entrevista.dataHora);
@@ -321,7 +320,6 @@ function baixarConvite(c) {
   URL.revokeObjectURL(link.href);
   mostrarAviso("Convite gerado. Abra o arquivo para salvar na agenda.");
 }
-*/
 
 /* =========================================================
  * Notificações (tarefa 4.1 da HTA)
