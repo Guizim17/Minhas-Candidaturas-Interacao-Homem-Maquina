@@ -13,10 +13,10 @@
     "Engenharia de Telecomunicações"
   ],
   "publicadaEm": "2026-11-05",
-  "prazoInscricao": "2026-11-21",
+  "prazoInscricao": "2026-11-25",
   "empresa": {
     "nome": "Algar Telecom",
-    "contato": "estagio@algartelecom.com.br",
+    "contato": "email@generico.com",
     "sobre": "Operadora de telecomunicações e serviços de TI com sede em Uberlândia."
   },
   "descricao": "Participação na automação da infraestrutura em nuvem e na manutenção das esteiras de entrega contínua (CI/CD).",
